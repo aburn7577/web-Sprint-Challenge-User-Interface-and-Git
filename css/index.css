@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End of reset */
 
 * {
     box-sizing: border-box;
@@ -65,6 +66,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+nav{
+    display: flex;
+}
+
+nav.top-nav{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
 
 .container {
     width: 800px;
@@ -104,12 +126,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one{
+    background-color: teal;
+}
+.two{
+    background-color: gold;
+}
+.three{
+    background-color: cadetblue;
+}
+.four{
+    background-color: coral;
+}
+.five{
+    background-color: crimson;
+}
+.six{
+    background-color: forestgreen;
+}
+.seven{
+    background-color: darkorchid;
+}
+.eight{
+    background-color: hotpink;
+}
+.nine{
+    background-color: indigo;
+}
+.ten{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
